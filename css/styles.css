@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+.tittle{
+    text-align: center;
+}
+
+.container-formulaire{
+    border: 0;
+    display: flex;
+} 
+
+label{
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.group-form{
+    background-color: azure;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.area-tittle{
+    border: 0;
+    background-color: azure;
+    width: 100%;
+}
+
+.area-button{
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.button{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+/* Section message */
+.container-touit{
+    width: 990px;
+    margin-left: auto;
+    margin-right:2rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.influenceurs{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.message-touiteur{
+    padding-top: 5rem;
+    display: flex;
+}
+
+.message-text{
+    overflow-wrap: break-word;
+}
+
+.bloc-message{
+    display: flex;
+    flex-direction: column-reverse;
+} 
+
+.message-group{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 0;
+    box-shadow: 2px 2px 10px white;
+    margin: 3rem 0rem;
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+}
+
+.btn-group{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-like,
+.btn-comment,
+.btn-share{
+    border:0;
+    background-color: transparent;
+    color:white;
+    display: flex;
+    margin-right: 1rem;
+} 
+
+
+.btn-like:before{
+    content:"";
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/like.svg);
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+
+.btn-comment:before{
+    content:"";
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/comments.svg);
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+
+.btn-share:before{
+    content:"";
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/share.svg);
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+
+.comments-title, 
+.comments-text{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.all-comments-group{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid white;
+}
+
+.del-btn{
+    background-color: rgb(0, 238, 255);
+    border: 0;
+    padding: 1rem;
+}
+
+.comments-form-button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+}
